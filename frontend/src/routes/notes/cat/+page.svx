@@ -1,0 +1,21 @@
+---
+layout: components
+title: Example Note
+breadcrumb: [{label: 'Notes', href: '/notes'}, {label: 'Example', href: '/notes/example'}]
+---
+
+## Example Note
+
+This is a sample `.svx` file being rendered inside the `MainEditor`.
+
+### Features
+
+- **Supports Markdown** for easy formatting.
+- **Custom Components** can be imported if needed.
+- **Dynamic Loading** based on the URL slug.
+
+```js
+console.log('Hello, Quartz!');
+```
+
+[Back to Notes](../../notes)
